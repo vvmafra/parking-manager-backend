@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/', include('parking_manager.urls')),
+    path('', include('parking_manager.urls')),  # Inclua as URLs do seu aplicativo
 ]
